@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" name="input" id="input" placeholder="0" disabled>
+        <hr>
+        <input type="text" name="output" id="output"  disabled>
+
+        <button   id="clr" onclick="clr()">AC</button>
+        <button onclick="per('%')">%</button>
+        <button onclick="back()" 
+        style="font-size: 16px;">&#9003</button>
+        <button onclick="get('/')">÷</button>
+
+
+       
+        <button    onclick="get('7')">7</button>
+        <button   onclick="get('8')">8</button>
+        <button   onclick="get('9')">9</button>
+        <button   onclick="get('*')">x</button>
+    
+        <button   onclick="get('4')">4</button>
+        <button   onclick="get('5')">5</button>
+        <button   onclick="get('6')">6</button>
+        <button   onclick="get('-')">-</button>
+   
+        <button   onclick="get('1')">1</button>
+        <button   onclick="get('2')">2</button>
+        <button   onclick="get('3')">3</button>
+        <button   onclick="get('+')">+</button>
+    
+       
+        <button   onclick="get('00')">00</button>
+        <button   onclick="get('0')">0</button>
+        <button   onclick="get('.')">.</button>
+        <button  id="eql" onclick="cal()">=</button>
+   
+ 
+</body>
+</html>
