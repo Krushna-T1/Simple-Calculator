@@ -9,32 +9,32 @@
 </head>
 <body>
     <div class="calculator">
-        <input type="text" name="input" id="input" placeholder="0" disabled>
+        <input type="text" name="input" id="input" onkeydown="button(event)" placeholder="0" disabled autofocus>
         <hr>
         <input type="text" name="output" id="output"  disabled>
 
-        <button   id="clr" onclick="clr()">AC</button>
-        <button onclick="per('%')">%</button>
-        <button onclick="back()" 
+        <button class="ops"  id="clr" onclick="clr()">AC</button>
+        <button class="ops"onclick="per('%')">%</button>
+        <button class="ops" onclick="back()" 
         style="font-size: 16px;">&#9003</button>
-        <button onclick="get('/')">÷</button>
+        <button class="ops" onclick="get('/')">÷</button>
 
 
        
         <button    onclick="get('7')">7</button>
         <button   onclick="get('8')">8</button>
         <button   onclick="get('9')">9</button>
-        <button   onclick="get('*')">x</button>
+        <button class="ops"  onclick="get('*')">x</button>
     
         <button   onclick="get('4')">4</button>
         <button   onclick="get('5')">5</button>
         <button   onclick="get('6')">6</button>
-        <button   onclick="get('-')">-</button>
+        <button  class="ops" onclick="get('-')">_</button>
    
         <button   onclick="get('1')">1</button>
         <button   onclick="get('2')">2</button>
         <button   onclick="get('3')">3</button>
-        <button   onclick="get('+')">+</button>
+        <button class="ops"  onclick="get('+')">+</button>
     
        
         <button   onclick="get('00')">00</button>
