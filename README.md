@@ -1,4 +1,4 @@
-![image](https://github.com/Krushna-T1/Simple-Calculator/assets/152420714/14e92721-d3fd-4cf9-bf12-59d1ba2b839a)## JavaScript Calculator
+## JavaScript Calculator
 
 This is a simple calculator implemented using JavaScript, HTML, and CSS. The calculator allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
